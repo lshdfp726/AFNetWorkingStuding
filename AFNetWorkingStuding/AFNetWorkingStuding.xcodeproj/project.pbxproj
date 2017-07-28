@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4ED01B370F7E060749FEB92C /* libPods-AFNetWorkingStuding.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E173FE423295EBAD9FA53DA /* libPods-AFNetWorkingStuding.a */; };
+		EC1E75E71F25E38400132CAB /* LshProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1E75E61F25E38400132CAB /* LshProgress.m */; };
+		EC1E75EA1F29834400132CAB /* BaseNav.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1E75E91F29834400132CAB /* BaseNav.m */; };
+		EC1E75FB1F2AF07700132CAB /* ColorHex.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1E75F61F2AF07700132CAB /* ColorHex.m */; };
+		EC1E75FC1F2AF07700132CAB /* ColorToImageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1E75F81F2AF07700132CAB /* ColorToImageTools.m */; };
+		EC1E75FD1F2AF07700132CAB /* ColorValuesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1E75FA1F2AF07700132CAB /* ColorValuesManager.m */; };
 		EC5A11591F1EF77000C448BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5A11581F1EF77000C448BB /* main.m */; };
 		EC5A115C1F1EF77000C448BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5A115B1F1EF77000C448BB /* AppDelegate.m */; };
 		EC5A115F1F1EF77000C448BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5A115E1F1EF77000C448BB /* ViewController.m */; };
@@ -15,6 +21,8 @@
 		EC5A11671F1EF77000C448BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5A11651F1EF77000C448BB /* LaunchScreen.storyboard */; };
 		EC5A11721F1EF77000C448BB /* AFNetWorkingStudingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5A11711F1EF77000C448BB /* AFNetWorkingStudingTests.m */; };
 		EC5A117D1F1EF77000C448BB /* AFNetWorkingStudingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5A117C1F1EF77000C448BB /* AFNetWorkingStudingUITests.m */; };
+		EC5A11941F21EA0C00C448BB /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5A11931F21EA0B00C448BB /* BaseModel.m */; };
+		EC5A11981F21EA3000C448BB /* AFNetWorkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5A11971F21EA3000C448BB /* AFNetWorkingManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E4DF2D4736EE521EBF7EFFD /* Pods-AFNetWorkingStuding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetWorkingStuding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetWorkingStuding/Pods-AFNetWorkingStuding.debug.xcconfig"; sourceTree = "<group>"; };
+		5E173FE423295EBAD9FA53DA /* libPods-AFNetWorkingStuding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetWorkingStuding.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FAFD351E47BA5EE9E45D15C /* Pods-AFNetWorkingStuding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetWorkingStuding.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetWorkingStuding/Pods-AFNetWorkingStuding.release.xcconfig"; sourceTree = "<group>"; };
+		EC1E75E51F25E38400132CAB /* LshProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LshProgress.h; sourceTree = "<group>"; };
+		EC1E75E61F25E38400132CAB /* LshProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LshProgress.m; sourceTree = "<group>"; };
+		EC1E75E81F29834300132CAB /* BaseNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNav.h; sourceTree = "<group>"; };
+		EC1E75E91F29834400132CAB /* BaseNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNav.m; sourceTree = "<group>"; };
+		EC1E75F51F2AF07700132CAB /* ColorHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorHex.h; sourceTree = "<group>"; };
+		EC1E75F61F2AF07700132CAB /* ColorHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorHex.m; sourceTree = "<group>"; };
+		EC1E75F71F2AF07700132CAB /* ColorToImageTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorToImageTools.h; sourceTree = "<group>"; };
+		EC1E75F81F2AF07700132CAB /* ColorToImageTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorToImageTools.m; sourceTree = "<group>"; };
+		EC1E75F91F2AF07700132CAB /* ColorValuesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorValuesManager.h; sourceTree = "<group>"; };
+		EC1E75FA1F2AF07700132CAB /* ColorValuesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorValuesManager.m; sourceTree = "<group>"; };
 		EC5A11541F1EF77000C448BB /* AFNetWorkingStuding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetWorkingStuding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5A11581F1EF77000C448BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC5A115A1F1EF77000C448BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +72,11 @@
 		EC5A11781F1EF77000C448BB /* AFNetWorkingStudingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetWorkingStudingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5A117C1F1EF77000C448BB /* AFNetWorkingStudingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetWorkingStudingUITests.m; sourceTree = "<group>"; };
 		EC5A117E1F1EF77000C448BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5A118A1F1EF8DE00C448BB /* lsh_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = lsh_PrefixHeader.pch; path = ../lsh_PrefixHeader.pch; sourceTree = "<group>"; };
+		EC5A11921F21EA0B00C448BB /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		EC5A11931F21EA0B00C448BB /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		EC5A11961F21EA3000C448BB /* AFNetWorkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetWorkingManager.h; sourceTree = "<group>"; };
+		EC5A11971F21EA3000C448BB /* AFNetWorkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetWorkingManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED01B370F7E060749FEB92C /* libPods-AFNetWorkingStuding.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +105,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17BE012667FF3C4AEE28CCBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E173FE423295EBAD9FA53DA /* libPods-AFNetWorkingStuding.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8F26B0F2353E73F069F204D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E4DF2D4736EE521EBF7EFFD /* Pods-AFNetWorkingStuding.debug.xcconfig */,
+				9FAFD351E47BA5EE9E45D15C /* Pods-AFNetWorkingStuding.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC1E75E41F25E38400132CAB /* LshProgress */ = {
+			isa = PBXGroup;
+			children = (
+				EC1E75E51F25E38400132CAB /* LshProgress.h */,
+				EC1E75E61F25E38400132CAB /* LshProgress.m */,
+			);
+			path = LshProgress;
+			sourceTree = "<group>";
+		};
+		EC1E75F41F2AF07700132CAB /* ColorManager */ = {
+			isa = PBXGroup;
+			children = (
+				EC1E75F51F2AF07700132CAB /* ColorHex.h */,
+				EC1E75F61F2AF07700132CAB /* ColorHex.m */,
+				EC1E75F71F2AF07700132CAB /* ColorToImageTools.h */,
+				EC1E75F81F2AF07700132CAB /* ColorToImageTools.m */,
+				EC1E75F91F2AF07700132CAB /* ColorValuesManager.h */,
+				EC1E75FA1F2AF07700132CAB /* ColorValuesManager.m */,
+			);
+			name = ColorManager;
+			path = AFNetWorkingStuding/ColorManager;
+			sourceTree = "<group>";
+		};
 		EC5A114B1F1EF76F00C448BB = {
 			isa = PBXGroup;
 			children = (
+				EC1E75F41F2AF07700132CAB /* ColorManager */,
+				EC1E75E81F29834300132CAB /* BaseNav.h */,
+				EC1E75E91F29834400132CAB /* BaseNav.m */,
 				EC5A11561F1EF77000C448BB /* AFNetWorkingStuding */,
 				EC5A11701F1EF77000C448BB /* AFNetWorkingStudingTests */,
 				EC5A117B1F1EF77000C448BB /* AFNetWorkingStudingUITests */,
 				EC5A11551F1EF77000C448BB /* Products */,
+				C8F26B0F2353E73F069F204D /* Pods */,
+				17BE012667FF3C4AEE28CCBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +173,8 @@
 		EC5A11561F1EF77000C448BB /* AFNetWorkingStuding */ = {
 			isa = PBXGroup;
 			children = (
+				EC1E75E41F25E38400132CAB /* LshProgress */,
+				EC5A11951F21EA3000C448BB /* AFNetWorkingManager */,
 				EC5A115A1F1EF77000C448BB /* AppDelegate.h */,
 				EC5A115B1F1EF77000C448BB /* AppDelegate.m */,
 				EC5A115D1F1EF77000C448BB /* ViewController.h */,
@@ -110,6 +184,8 @@
 				EC5A11651F1EF77000C448BB /* LaunchScreen.storyboard */,
 				EC5A11681F1EF77000C448BB /* Info.plist */,
 				EC5A11571F1EF77000C448BB /* Supporting Files */,
+				EC5A11921F21EA0B00C448BB /* BaseModel.h */,
+				EC5A11931F21EA0B00C448BB /* BaseModel.m */,
 			);
 			path = AFNetWorkingStuding;
 			sourceTree = "<group>";
@@ -117,6 +193,7 @@
 		EC5A11571F1EF77000C448BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EC5A118A1F1EF8DE00C448BB /* lsh_PrefixHeader.pch */,
 				EC5A11581F1EF77000C448BB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +217,15 @@
 			path = AFNetWorkingStudingUITests;
 			sourceTree = "<group>";
 		};
+		EC5A11951F21EA3000C448BB /* AFNetWorkingManager */ = {
+			isa = PBXGroup;
+			children = (
+				EC5A11961F21EA3000C448BB /* AFNetWorkingManager.h */,
+				EC5A11971F21EA3000C448BB /* AFNetWorkingManager.m */,
+			);
+			path = AFNetWorkingManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC5A11811F1EF77000C448BB /* Build configuration list for PBXNativeTarget "AFNetWorkingStuding" */;
 			buildPhases = (
+				46CE41C52CA01BA274EF08A1 /* [CP] Check Pods Manifest.lock */,
 				EC5A11501F1EF77000C448BB /* Sources */,
 				EC5A11511F1EF77000C448BB /* Frameworks */,
 				EC5A11521F1EF77000C448BB /* Resources */,
+				8FFF63A4B677480FED2D6B29 /* [CP] Embed Pods Frameworks */,
+				D3E9AC64E62816DF34C52BED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +298,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = K74UKU9UG7;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					EC5A116C1F1EF77000C448BB = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -271,13 +365,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46CE41C52CA01BA274EF08A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FFF63A4B677480FED2D6B29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFNetWorkingStuding/Pods-AFNetWorkingStuding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3E9AC64E62816DF34C52BED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFNetWorkingStuding/Pods-AFNetWorkingStuding-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC5A11501F1EF77000C448BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1E75FC1F2AF07700132CAB /* ColorToImageTools.m in Sources */,
 				EC5A115F1F1EF77000C448BB /* ViewController.m in Sources */,
+				EC1E75FB1F2AF07700132CAB /* ColorHex.m in Sources */,
+				EC5A11981F21EA3000C448BB /* AFNetWorkingManager.m in Sources */,
+				EC1E75E71F25E38400132CAB /* LshProgress.m in Sources */,
 				EC5A115C1F1EF77000C448BB /* AppDelegate.m in Sources */,
+				EC5A11941F21EA0C00C448BB /* BaseModel.m in Sources */,
+				EC1E75FD1F2AF07700132CAB /* ColorValuesManager.m in Sources */,
+				EC1E75EA1F29834400132CAB /* BaseNav.m in Sources */,
 				EC5A11591F1EF77000C448BB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,9 +576,11 @@
 		};
 		EC5A11821F1EF77000C448BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4DF2D4736EE521EBF7EFFD /* Pods-AFNetWorkingStuding.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K74UKU9UG7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/lsh_PrefixHeader.pch";
 				INFOPLIST_FILE = AFNetWorkingStuding/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AF.lsh726.AFNetWorkingStuding;
@@ -439,9 +590,11 @@
 		};
 		EC5A11831F1EF77000C448BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FAFD351E47BA5EE9E45D15C /* Pods-AFNetWorkingStuding.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K74UKU9UG7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/lsh_PrefixHeader.pch";
 				INFOPLIST_FILE = AFNetWorkingStuding/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AF.lsh726.AFNetWorkingStuding;
@@ -518,6 +671,7 @@
 				EC5A11831F1EF77000C448BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC5A11841F1EF77000C448BB /* Build configuration list for PBXNativeTarget "AFNetWorkingStudingTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +680,7 @@
 				EC5A11861F1EF77000C448BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC5A11871F1EF77000C448BB /* Build configuration list for PBXNativeTarget "AFNetWorkingStudingUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +689,7 @@
 				EC5A11891F1EF77000C448BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
